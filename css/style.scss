@@ -1,13 +1,18 @@
-@import url("https://fonts.google.com/specimen/Poppins");
+@import url('https://fonts.google.com/specimen/Poppins');
 /*--------------------*/
 /*--Estilos generales--*/
 /*--------------------*/
-* {
+$pink: hsl(322, 100%, 66%);
+$Very-Pale-Cyan: hsl(193, 100%, 96%);
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Grayish-Blue: hsl(208, 11%, 55%);
+
+*{
   margin: 0;
   padding: 0;
 }
 
-body {
+body{
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -15,22 +20,21 @@ body {
 /*--------------------*/
 /*--Estilos del header--*/
 /*--------------------*/
-header {
+
+header{
   font-family: 'Poppins' sans-serif;
   background-image: url(../images/bg-hero-desktop.svg);
   background-size: cover;
-  background-color: #ebfbff;
+  background-color: $Very-Pale-Cyan;
   height: 42em;
   width: 100%;
 }
 
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.navbar{
   display: flex;
 }
 
-.try-it-free {
+.try-it-free{
   margin-left: 920px;
   margin-top: 20px;
   text-decoration: none;
@@ -41,13 +45,12 @@ header {
   text-align: center;
 }
 
-.text-nav {
-  color: #00252e;
+.text-nav{
+  color: $Very-Dark-Cyan;
   font-size: 18px;
   margin-top: 10px;
 }
 
-.logo {
+.logo{
   margin: auto;
 }
-/*# sourceMappingURL=style.css.map */
