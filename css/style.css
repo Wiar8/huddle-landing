@@ -1,4 +1,4 @@
-@import url("https://fonts.google.com/specimen/Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap");
 /*--------------------*/
 /*--Estilos generales--*/
 /*--------------------*/
@@ -16,7 +16,7 @@ body {
 /*--Estilos del header--*/
 /*--------------------*/
 header {
-  font-family: 'Poppins' sans-serif;
+  font-family: "Poppins", sans-serif;
   background-image: url(../images/bg-hero-desktop.svg);
   background-size: cover;
   background-color: #ebfbff;
@@ -30,24 +30,60 @@ header {
   display: flex;
 }
 
-.try-it-free {
+.navbar .try-it-free {
   margin-left: 920px;
-  margin-top: 20px;
+  margin-top: 3em;
   text-decoration: none;
   background-color: white;
   border-radius: 50px;
   width: 10em;
   height: 40px;
   text-align: center;
+  -webkit-box-shadow: 2px 3px #00000052;
+          box-shadow: 2px 3px #00000052;
 }
 
-.text-nav {
+.navbar .text-nav {
   color: #00252e;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 6px;
 }
 
-.logo {
-  margin: auto;
+.navbar .logo {
+  margin-left: 2em;
+  margin-top: 3em;
+}
+
+.live-to-action {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.live-to-action .container-left {
+  margin-left: 50px;
+  color: #00252e;
+  margin-top: 6em;
+}
+
+.live-to-action .container-left .title {
+  margin-bottom: 20px;
+}
+
+.live-to-action .container-left .parrafo-live-to-action {
+  margin-bottom: 2.5em;
+}
+
+.live-to-action .container-left .button-live-to-action {
+  text-decoration: none;
+  background-color: #ff52bf;
+  border-radius: 50px;
+  padding: 15px 30px;
+  color: white;
+  text-align: center;
+}
+
+.live-to-action .mockups-image {
+  width: 790px;
+  margin-top: 3em;
 }
 /*# sourceMappingURL=style.css.map */

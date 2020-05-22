@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Poppins');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap");
 /*--------------------*/
 /*--Estilos generales--*/
 /*--------------------*/
@@ -7,12 +7,12 @@ $Very-Pale-Cyan: hsl(193, 100%, 96%);
 $Very-Dark-Cyan: hsl(192, 100%, 9%);
 $Grayish-Blue: hsl(208, 11%, 55%);
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -21,8 +21,8 @@ body{
 /*--Estilos del header--*/
 /*--------------------*/
 
-header{
-  font-family: 'Poppins' sans-serif;
+header {
+  font-family: "Poppins", sans-serif;
   background-image: url(../images/bg-hero-desktop.svg);
   background-size: cover;
   background-color: $Very-Pale-Cyan;
@@ -30,27 +30,62 @@ header{
   width: 100%;
 }
 
-.navbar{
+.navbar {
   display: flex;
+
+  .try-it-free {
+    margin-left: 920px;
+    margin-top: 3em;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50px;
+    width: 10em;
+    height: 40px;
+    text-align: center;
+    box-shadow: 2px 3px #00000052;
+  }
+
+  .text-nav {
+    color: $Very-Dark-Cyan;
+    font-size: 18px;
+    margin-top: 6px;
+  }
+
+  .logo {
+    margin-left: 2em;
+    margin-top: 3em;
+  }
 }
 
-.try-it-free{
-  margin-left: 920px;
-  margin-top: 20px;
-  text-decoration: none;
-  background-color: white;
-  border-radius: 50px;
-  width: 10em;
-  height: 40px;
-  text-align: center;
-}
+.live-to-action {
+  width: 100%;
+  max-width: 1400px;
 
-.text-nav{
-  color: $Very-Dark-Cyan;
-  font-size: 18px;
-  margin-top: 10px;
-}
+  .container-left {
+    margin-left: 50px;
+    color: $Very-Dark-Cyan;
+    margin-top: 6em;
 
-.logo{
-  margin: auto;
+    .title{
+      margin-bottom: 20px;
+    }
+
+    .parrafo-live-to-action{
+      margin-bottom: 2.5em;
+    }
+
+    .button-live-to-action{
+      text-decoration: none;
+      background-color: $pink;
+      border-radius: 50px;
+      padding: 15px 30px;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .mockups-image {
+    width: 790px;
+    margin-top: 3em;
+  }
 }
