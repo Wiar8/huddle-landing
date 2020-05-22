@@ -39,8 +39,8 @@ header {
   width: 10em;
   height: 40px;
   text-align: center;
-  -webkit-box-shadow: 2px 3px #00000052;
-          box-shadow: 2px 3px #00000052;
+  -webkit-box-shadow: 2px 3px #41618504;
+          box-shadow: 2px 3px #41618504;
 }
 
 .navbar .text-nav {
@@ -85,5 +85,35 @@ header {
 .live-to-action .mockups-image {
   width: 790px;
   margin-top: 3em;
+}
+
+.targets-list {
+  margin-top: 10em;
+}
+
+.targets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(128, 128, 128, 0.58);
+          box-shadow: 0px 0px 8px 2px rgba(128, 128, 128, 0.58);
+  margin: 0em 5em;
+  height: 16em;
+  padding: 2em;
+}
+
+.targets img {
+  width: 20em;
+}
+
+.targets h1 {
+  color: #00252e;
+  margin-bottom: 1em;
+  margin-top: 3em;
+}
+
+.targets p {
+  color: #808d99;
+  width: 26em;
 }
 /*# sourceMappingURL=style.css.map */

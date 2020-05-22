@@ -4,3 +4,17 @@
   grid-gap: 50px;
   grid-template-columns: 540px 700px;
 }
+
+.container-targets{
+  display: grid;
+
+  grid-gap: 50px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.targets{
+  display: grid;
+
+  grid-gap: 50px;
+  grid-template-columns: 1fr 1fr;
+}
