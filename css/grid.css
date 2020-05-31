@@ -1,18 +1,18 @@
-.container{
+.container {
   display: grid;
 
   grid-gap: 50px;
   grid-template-columns: 540px 700px;
 }
 
-.container-targets{
+.container-targets {
   display: grid;
 
   grid-gap: 50px;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.targets{
+.targets {
   display: grid;
 
   grid-gap: 50px;

@@ -91,12 +91,15 @@ header {
   margin-top: 10em;
 }
 
+/*--------------------*/
+/*--Estilos de las cards--*/
+/*--------------------*/
 .targets {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 0px 0px 8px 2px rgba(128, 128, 128, 0.58);
-          box-shadow: 0px 0px 8px 2px rgba(128, 128, 128, 0.58);
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(153, 153, 153, 0.287);
+          box-shadow: 0px 0px 8px 2px rgba(153, 153, 153, 0.287);
   margin: 0em 5em;
   height: 16em;
   padding: 2em;
@@ -115,5 +118,37 @@ header {
 .targets p {
   color: #808d99;
   width: 26em;
+}
+
+/*--------------------*/
+/*--Estilos del footer--*/
+/*--------------------*/
+.footer {
+  margin-top: 10em;
+}
+
+.footer .container-footer {
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(153, 153, 153, 0.287);
+          box-shadow: 0px 0px 8px 2px rgba(153, 153, 153, 0.287);
+  max-width: 600px;
+  margin: auto;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.footer .footer-text {
+  text-align: center;
+  margin-bottom: 2em;
+  padding-top: 2em;
+}
+
+.footer .footer-button {
+  margin: 150px;
+  text-decoration: none;
+  background-color: #ff52bf;
+  border-radius: 50px;
+  padding: 20px 50px;
+  color: white;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
