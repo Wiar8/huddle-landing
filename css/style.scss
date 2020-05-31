@@ -90,29 +90,65 @@ header {
   }
 }
 
-.targets-list{
+.targets-list {
   margin-top: 10em;
 }
 
-.targets{
+/*--------------------*/
+/*--Estilos de las cards--*/
+/*--------------------*/
+
+.targets {
   display: flex;
-  box-shadow: 0px 0px 8px 2px rgba(128,128,128,0.58);
+  box-shadow: 0px 0px 8px 2px rgba(153, 153, 153, 0.287);
   margin: 0em 5em;
   height: 16em;
   padding: 2em;
 }
 
-.targets img{
+.targets img {
   width: 20em;
 }
 
-.targets h1{
+.targets h1 {
   color: $Very-Dark-Cyan;
   margin-bottom: 1em;
   margin-top: 3em;
 }
 
-.targets p{
+.targets p {
   color: $Grayish-Blue;
   width: 26em;
+}
+
+/*--------------------*/
+/*--Estilos del footer--*/
+/*--------------------*/
+
+.footer {
+  margin-top: 10em;
+
+  .container-footer {
+    box-shadow: 0px 0px 8px 2px rgba(153, 153, 153, 0.287);
+    max-width: 600px;
+    margin: auto;
+    height: 200px;
+    border-radius: 15px;
+  }
+
+  .footer-text {
+    text-align: center;
+    margin-bottom: 2em;
+    padding-top: 2em;
+  }
+
+  .footer-button {
+    margin: 150px;
+    text-decoration: none;
+    background-color: $pink;
+    border-radius: 50px;
+    padding: 20px 50px;
+    color: white;
+    text-align: center;
+  }
 }
